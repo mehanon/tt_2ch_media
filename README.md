@@ -1,6 +1,6 @@
 ## TikTok Downloader for 2ch/media to replace awemer (it sucks, no offence)
 
-It does what the title says.
+It does what the title says. In the best quality you could get with tikwm
 
 ### Usage
 
