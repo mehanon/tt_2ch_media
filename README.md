@@ -8,7 +8,7 @@ NOTE: Windows could treat the executable as a virus and block it from internet,
 idk how you fix it on Windows, with administrator rights?
 
 1. Console mode  
-`./tt_2ch_media.exe https://www.tiktok.com/@shrimpydimpy/video/7133412834960018730`
+`./tt_2ch_media.exe "https://www.tiktok.com/@shrimpydimpy/video/7133412834960018730"`
 2. Inline mode (as a classic application) `./tt_2ch_media.exe` or just double-click on windows
 
 
