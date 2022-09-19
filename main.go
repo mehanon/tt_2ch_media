@@ -54,7 +54,8 @@ func main() {
 				log.Fatalf("While reading input, an error occured:\n%s", err.Error())
 			}
 			for _, link := range strings.Split(links, " ") {
-				if len(strings.Trim(link, " \n\t")) == 0 {
+				link = strings.Trim(link, " \n\t\"'")
+				if len(link) == 0 {
 					println("see you next time")
 					time.Sleep(time.Second * 5)
 					os.Exit(0)
